@@ -94,7 +94,7 @@ h2 { font-size: clamp(2.75rem, 5vw, 5.4rem); line-height: .98; margin: 20px 0; }
 .step-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
 .step-card-highlight { background: var(--teal); color: var(--white); border-color: var(--teal); }
 .step-card-highlight .step-top { color: rgba(255,255,255,.7); }
-.step-card-highlight p { color: #071b1b; }
+.step-card.step-card-highlight p { color: #071b1b; }
 .step-card-highlight .step-symbol { border-color: rgba(255,255,255,.4); }
 .step-top { display: flex; align-items: center; justify-content: space-between; }
 .step-symbol { width: 26px; height: 26px; border: 1px solid var(--line); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: var(--coral); font-size: 1rem; }
