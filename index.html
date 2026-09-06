@@ -4,24 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f7f7f2" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; upgrade-insecure-requests" />
     <meta name="description" content="SiboMate is a private SIBO and gut-health companion for understanding symptoms, meals, research, and next steps." />
+    <link rel="canonical" href="https://sibomate.me/" />
     <meta property="og:title" content="SiboMate · A clearer way to understand your gut" />
     <meta property="og:description" content="A private SIBO companion for assessment, symptom tracking, research, and calmer conversations with your clinician." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="icon.png" />
+    <meta property="og:url" content="https://sibomate.me/" />
+    <meta property="og:site_name" content="SiboMate" />
+    <meta property="og:image" content="https://sibomate.me/social-share.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SiboMate app icon on a calm ivory and sage background" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SiboMate · A clearer way to understand your gut" />
+    <meta name="twitter:description" content="A private SIBO companion for assessment, symptom tracking, research, and calmer conversations with your clinician." />
+    <meta name="twitter:image" content="https://sibomate.me/social-share.jpg" />
     <title>SiboMate · A clearer way to understand your gut</title>
-    <link rel="icon" href="icon.png" />
-    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css?v=3" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://sibomate.me/#app",
+            "name": "SiboMate",
+            "url": "https://sibomate.me/",
+            "downloadUrl": "https://apps.apple.com/us/app/sibomate/id6792794417",
+            "applicationCategory": "HealthApplication",
+            "operatingSystem": "iOS",
+            "description": "A private SIBO and gut-health companion for organizing symptoms, meals, research, and questions for conversations with a clinician.",
+            "image": "https://sibomate.me/social-share.jpg",
+            "offers": [
+              { "@type": "Offer", "name": "Monthly", "price": "6.99", "priceCurrency": "USD" },
+              { "@type": "Offer", "name": "Annual", "price": "49.99", "priceCurrency": "USD" },
+              { "@type": "Offer", "name": "Lifetime", "price": "99.99", "priceCurrency": "USD" }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://sibomate.me/#faq-schema",
+            "mainEntity": [
+              { "@type": "Question", "name": "Is SiboMate medical advice?", "acceptedAnswer": { "@type": "Answer", "text": "No. SiboMate is an educational companion. It does not diagnose, treat, or replace care from a qualified healthcare professional." } },
+              { "@type": "Question", "name": "Where does my health information go?", "acceptedAnswer": { "@type": "Answer", "text": "Your assessment, profile, symptoms, and meals stay on your device. The optional AI tool only sends information to the provider you choose with your own key." } },
+              { "@type": "Question", "name": "What happens after the free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Monthly and Annual trials renew automatically through Apple unless canceled. Lifetime is a one-time purchase. If access ends, the app shows the purchase screen so you can choose a plan." } },
+              { "@type": "Question", "name": "Can I use SiboMate offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Once the research database is downloaded, searches run on your phone and do not require an account." } }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div class="site-shell">
       <header class="site-header" data-header>
         <a class="brand" href="#top" aria-label="SiboMate home">
-          <img class="brand-mark" src="icon.png" alt="" width="32" height="32" />
+          <img class="brand-mark" src="icon-ui.webp" alt="" width="32" height="32" />
           <span class="brand-name">SiboMate</span>
         </a>
         <nav class="desktop-nav" aria-label="Primary navigation">
@@ -155,7 +200,7 @@
         </section>
 
         <section class="final-cta section-pad reveal">
-          <img class="final-cta-mark" src="icon.png" alt="" width="82" height="82" />
+          <img class="final-cta-mark" src="icon-ui.webp" alt="" width="82" height="82" />
           <div class="eyebrow"><span class="eyebrow-dot"></span> Your next useful step</div>
           <h2>Make a little more sense<br />of how you <em>feel.</em></h2>
           <a class="button button-primary" href="https://apps.apple.com/us/app/sibomate/id6792794417" target="_blank" rel="noreferrer">Download SiboMate <span>↗</span></a>
@@ -163,7 +208,7 @@
       </main>
 
       <footer class="site-footer section-pad">
-        <div class="footer-main"><a class="brand" href="#top"><img class="brand-mark" src="icon.png" alt="" width="32" height="32" /><span class="brand-name">SiboMate</span></a><p>A private SIBO and gut-health companion.</p></div>
+        <div class="footer-main"><a class="brand" href="#top"><img class="brand-mark" src="icon-ui.webp" alt="" width="32" height="32" /><span class="brand-name">SiboMate</span></a><p>A private SIBO and gut-health companion.</p></div>
         <div class="footer-links"><a href="privacy.html">Privacy &amp; Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noreferrer">Terms</a><a href="https://apps.apple.com/us/app/sibomate/id6792794417" target="_blank" rel="noreferrer">App Store <span>↗</span></a></div>
         <div class="footer-bottom"><span>© 2026 SiboMate</span><span>For education, not diagnosis or treatment.</span></div>
       </footer>
