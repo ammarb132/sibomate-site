@@ -116,6 +116,7 @@ h2 { font-size: clamp(2.75rem, 5vw, 5.4rem); line-height: .98; margin: 20px 0; }
 .feature-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-bottom: 50px; }
 .feature-heading h2 { margin-bottom: 0; }
 .feature-heading > p { margin-bottom: 4px; }
+.feature-preview-note { margin: -28px 0 26px; color: var(--teal); font-family: var(--mono); font-size: .62rem; letter-spacing: .08em; text-transform: uppercase; }
 .feature-showcase { display: grid; gap: 22px; }
 .feature-row { display: grid; grid-template-columns: minmax(280px, 1fr) minmax(280px, .87fr); align-items: center; gap: clamp(2rem, 7vw, 8rem); padding: clamp(1.3rem, 3vw, 2.6rem); border-radius: 24px; background: var(--sage); }
 .feature-row-reverse { grid-template-columns: minmax(280px, .87fr) minmax(280px, 1fr); }.feature-row-reverse .feature-image { order: 2; }.feature-row-reverse .feature-copy { order: 1; }
